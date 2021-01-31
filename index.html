@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <h1>GitHub User Search App</h1>
+
+    <div class="searchForm">
+      <form>
+        <label>Search Username: </label>
+        <input type="text" name="userInput" id="jsUserInput" placeholder="username or handle" required />
+        <input type="submit" value="search" required />
+      </form>
+    </div>
+
+    <div id ="hideSomething" class="hideSomething">
+      <h2 class="resultsText">Results:</h2>
+      <div id="usernameSpot">
+
+      </div>
+      <ul id="resultsList">
+
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
